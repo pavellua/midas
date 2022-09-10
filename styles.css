@@ -1,0 +1,74 @@
+body {
+    margin: 0 15%;
+    background-image: url(img/starSky.jpg);
+    background-size: 100%;
+}
+button {
+    background-color:rgb(25, 121, 116);
+    height: 50px;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+h1 {
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    color: rgb(255, 184, 6);
+    font-size: 80px;
+    margin: 20px 0;
+}
+.download {
+    margin-top: 10px;
+}
+.logo {
+    height: 30px;
+    margin-right: 20px;
+}
+#player {
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 85%;
+}
+.playerButton {
+    width: 40px;
+    margin: 0 10px;
+}
+#playerButtons {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    
+}
+#progressNow {
+    height: 3px;
+    background-color:red;
+}
+#progressLine {
+    height: 7px;
+    width: 80%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+}
+#social {
+    color: #fff;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.socBlock {
+    display: flex;
+    align-items: center;
+}
+#trackList {
+    display: flex;
+    justify-content: space-between;
+}
+.trackBlock {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
